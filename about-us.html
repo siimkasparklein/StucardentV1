@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Landing page</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about-us.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+    <nav class="desktop">
+      <div class="nav-left nav-links">
+        <a href="index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="in-progress.html">Get Started</a>
+      </div>
+      <div class="nav-center Logo">
+          Stucardent
+      </div>
+      <div class="nav-right">
+        <a class="button success" href="https://play.google.com/store">Download</a>
+      </div>
+    </nav>
+    
+    <nav class="mobile">
+      <button class="menu-button" onclick="toggleMenu()"> 
+        <img src="https://cdn.glitch.com/983d56bf-5fcf-475d-8086-58a85f8f9f90%2Fmenu.png?v=1612970979117" arc=""> 
+      </button>
+      
+      <div class="nav-links hidden" id="mobile-menu">
+        
+      <button class="close-menu" onclick="toggleMenu()">
+        <img src="https://cdn.glitch.com/983d56bf-5fcf-475d-8086-58a85f8f9f90%2Fclose.png?v=1612973771856" arc="">
+      </button>
+        <a href="index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="in-progress.html">Get Started</a>
+      </div>
+    </nav>
+    
+    <header>
+      <div>
+        <img src="https://cdn.glitch.com/983d56bf-5fcf-475d-8086-58a85f8f9f90%2Fabout-us.png?v=1613232007701" arc="">
+      </div>
+    </header>
+    
+    <main>
+      <section id="about">
+        <div class="Info">
+          <div class="info-item">
+            <img src="https://cdn.glitch.com/983d56bf-5fcf-475d-8086-58a85f8f9f90%2Fwho-we.png?v=1613234730819" alt="App feature">
+            <h3> Who we are?</h3>
+            <p>
+              We are a student company, developing usable apps that fix students problems. We have experience with programming, designing and product development.
+            </p>
+          </div>
+          
+          <div class="info-item">
+            <img src="https://cdn.glitch.com/983d56bf-5fcf-475d-8086-58a85f8f9f90%2FKontakt_Logo.jpg?v=1613234856281" alt="App feature">
+            <h3> Our contacts</h3>
+            <p>
+              email: info@stucardent.com
+              phone: +372 4628 3072
+              address: street 1 Tallinn
+            </p>
+          </div>
+          
+          <div class="info-item">
+            <img src="https://cdn.glitch.com/983d56bf-5fcf-475d-8086-58a85f8f9f90%2Fcooperation.png?v=1613235040380" alt="App feature">
+            <h3>Cooperation</h3>
+            <p>
+              We are ready to cooperate with companies and investors, who are intrested in our product development or ready to support our business.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="in-progress.html">Get Started</a>
+      </div>
+      
+    </footer>
+    
+  </body>
+</html>
