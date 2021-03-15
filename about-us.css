@@ -1,0 +1,62 @@
+header {
+  margin: 60px 0;
+  padding: 30px 0;
+  background: #333333;
+}
+
+header img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#about h2{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+}
+
+.Info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.info-item h3{
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFF;
+}
+
+.info-item p{
+  font-family: 'Oxygen', sans-serif;
+  color: #FFFF;
+}
+
+.info-item {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #333333 68.75%, rgba(1, 209, 255, 0.5) 100%);
+  border:solid 3px ;
+  
+}
+.info-item img {
+  width: 200px;
+  height: 150px;
+  background: white;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 600px){
+  header {
+    flex-direction: column-reverse;
+    margin: 30px 0;
+  }
+   header img {
+    width:400px;
+  }
+}  
